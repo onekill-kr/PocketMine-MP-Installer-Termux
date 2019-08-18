@@ -5,7 +5,6 @@ mkdir PMMPSERVER
 cd PMMPSERVER
 
 apt-get update
-apt-get upgrade
 echo -e "Y" | apt-get install make
 echo -e "Y" | apt-get make
 echo -e "Y" | apt-get install autoconf
