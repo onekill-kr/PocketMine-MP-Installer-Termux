@@ -3,7 +3,7 @@ termux에서 PocketMine-MP를 실행하는데 필요한 패키지들을 자동�
 
 >사용방법
 
-1. Termux를 설치합니다.\n
+1. Termux를 설치합니다.
 Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 2. 설정 -> 애플리케이션 -> Termux -> 권한 -> 저장공간 스위치를 켜줍니다.
 3. Termux를 실행합니다.
