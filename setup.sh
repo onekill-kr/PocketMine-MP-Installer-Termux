@@ -17,5 +17,6 @@ echo -e "Y" | apt-get install git
 echo -e "Y" | apt-get install cmake
 echo -e "Y" | apt-get install libtool
 echo -e "Y" | apt-get install automake
+echo -e "Y" | apt-get install php
 
 wget -q -O - https://get.pmmp.io | bash -s - -r
