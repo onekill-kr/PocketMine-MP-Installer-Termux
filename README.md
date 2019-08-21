@@ -7,7 +7,7 @@ termux에서 PocketMine-MP를 실행하는데 필요한 패키지들을 자동�
 Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 2. 설정 -> 애플리케이션 -> Termux -> 권한 -> 저장공간 스위치를 켜줍니다.
 3. Termux를 실행합니다.
-4. 아래의 명령어로 우분투 환경을 설치 후 <pre><code>./start-ubuntu.sh</code></pre>명령어로 실행합니다.
+4. 아래의 명령어로 우분투 환경을 설치 후 "./start-ubuntu.sh" 명령어로 실행합니다.
 <pre><code>pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh</code></pre>
 5. 아래의 명령어로 파일 다운로드에 필요한 wget패키지를 설치합니다.\n 설치에 동의하냐는 메시지가 나오면 엔터를 눌러줍니다
 <pre><code>apt-get install wget</code></pre>
