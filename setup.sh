@@ -1,22 +1,13 @@
-
 #!/bin/bash
 
-mkdir PMMPSERVER
-cd PMMPSERVER
+mkdir PMMP
+cd PMMP
 
-apt-get update
-echo -e "Y" | apt-get upgrade
-echo -e "Y" | apt-get install wget
-echo -e "Y" | apt-get install make
-echo -e "Y" | apt-get install autoconf
-echo -e "Y" | apt-get install m4
-echo -e "Y" | apt-get install getconf
-echo -e "Y" | apt-get install bison
-echo -e "Y" | apt-get install g++
-echo -e "Y" | apt-get install git
-echo -e "Y" | apt-get install cmake
-echo -e "Y" | apt-get install libtool
-echo -e "Y" | apt-get install automake
-echo -e "Y" | apt-get install php
+wget https://github.com/onekill-kr/PocketMine-MP-Installer-Termux-/raw/master/php
+wget https://github.com/onekill-kr/PocketMine-MP-Installer-Termux-/raw/master/PocketMine.phar
+wget https://raw.githubusercontent.com/onekill-kr/PocketMine-MP-Installer-Termux-/master/start.sh
 
-wget -q -O - https://get.pmmp.io | bash -s - -r
+chmod 777 ./php
+chmod 777 ./start.sh
+
+./php ./PocketMine.phar
