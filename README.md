@@ -17,8 +17,5 @@ Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 <pre><code>chmod +x setup.sh</code></pre>
 8. setup.sh 쉘 스크립트 파일을 실행합니다.
 <pre><code>./setup.sh</code></pre>
-9.메시지가 올라오던 도중에는 아무런 키도 누르면 안 됩니다.
-10.설치가 완료되었다는 메시지가 올라오면 <pre><code>./start.sh</code></pre>명령어로 PocketMime-MP를 실행합니다.설치 완료메시지의 내용은 아래와 같습니다
-<pre><code>[INFO] Cleaning up... done!
-[PocketMine] You should start the server now using "./start.sh".
-[PocketMine] If it doesn't work, please send the "install.log" file to the Bug Tracker.</code></pre>
+9.메시지가 올라오던 도중에 다른 키를 누르게 되면 설치가 중단됩니다.
+10.설치가 완료되면 자동으로 실행됩니다.
