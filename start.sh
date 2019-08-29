@@ -32,7 +32,7 @@ if [ "$PHP_BINARY" == "" ]; then
 fi
 
 if [ "$POCKETMINE_FILE" == "" ]; then
-	if [ -f ./PocketMin.phar ]; then
+	if [ -f ./PocketMine.phar ]; then
 		POCKETMINE_FILE="./PocketMine.phar"
 	else
 		echo "PocketMine.phar not found"
