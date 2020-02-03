@@ -15,5 +15,5 @@ Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 <pre><code>chmod +x setup.sh</code></pre>
 7. setup.sh 쉘 스크립트 파일을 실행합니다.
 <pre><code>./setup.sh</code></pre>
-8.메시지가 올라오던 도중에 다른 키를 누르게 되면 설치가 중단됩니다.
+8.메시지가 올라오던 도중에 다른 키를 누르게 되면 설치가 중단됩니다.\n
 9.설치가 완료되면 자동으로 실행됩니다.
