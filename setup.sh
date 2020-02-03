@@ -10,6 +10,7 @@ wget https://raw.githubusercontent.com/onekill-kr/PocketMine-MP-Installer-Termux
 wget https://raw.githubusercontent.com/onekill-kr/PocketMine-MP-Installer-Termux/master/load.sh
 
 chmod 777 ./php
+chmod 777 ./load.sh
 chmod 777 ./start.sh
 
 ./php ./PocketMine.phar
