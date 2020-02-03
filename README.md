@@ -10,7 +10,7 @@ Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 4. 아래의 명령어로 파일 다운로드에 필요한 wget패키지를 설치합니다.\n 설치에 동의하냐는 메시지가 나오면 엔터를 눌러줍니다
 <pre><code>apt-get install wget</code></pre>
 5. wget 명령어를 이용하여 setup.sh 파일을 다운받습니다.
-<pre><code>wget https://raw.githubusercontent.com/onekill-kr/PocketMine-MP-Installer-Termux-/master/setup.sh</code></pre>
+<pre><code>wget https://raw.githubusercontent.com/onekill-kr/PocketMine-MP-Installer-Termux/master/setup.sh</code></pre>
 6. setup.sh 파일을 실행할 수 있는 권한을 부여합니다.
 <pre><code>chmod +x setup.sh</code></pre>
 7. setup.sh 쉘 스크립트 파일을 실행합니다.
