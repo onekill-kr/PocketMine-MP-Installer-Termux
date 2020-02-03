@@ -4,7 +4,7 @@ if [ "${info}" == "w" ];
   rm -r /sdcard/TermuxPMMP/worlds/*
   cp -r ./worlds/* /sdcard/TermuxPMMP/worlds
   echo 월드를 모두 불러왔습니다.
-elif [ "${info}" == "p" ];
+if [ "${info}" == "p" ];
   rm -r /sdcard/TermuxPMMP/plugin_data/*
   cp -r ./plugin_data/* /sdcard/TermuxPMMP/plugin_data/
   echo 플러그인 데이터를 모두 불러왔습니다.
