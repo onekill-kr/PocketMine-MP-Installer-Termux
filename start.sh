@@ -2,6 +2,7 @@
 rm -r ./plugins
 rm -r ./plugin_data
 rm -r ./worlds
+rm ./server.properties
 cp -r /sdcard/TermuxPMMP/* ./
 DIR="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 cd "$DIR"
