@@ -15,6 +15,13 @@ Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 <pre><code>chmod +x setup.sh</code></pre>
 7. setup.sh 쉘 스크립트 파일을 실행합니다.
 <pre><code>./setup.sh</code></pre>
-8.메시지가 올라오던 도중에 다른 키를 누르게 되면 설치가 중단됩니다.
+8. 설치가 완료되면 서버가 자동으로 시작됩니다. 서버를 중지 후 다시 시작하시려면, 아래의 명렁어를 입력하시면 됩니다.
+<pre><code>./start.sh</code></pre>
 
-9.설치가 완료되면 자동으로 실행됩니다.
+
+>서버에서 플러그인을 사용하는 방법
+
+1. 파일관리자를 실행합니다.
+2. 사용할 플러그인을 복사 후 내장메모리 -> TermuxPMMP -> plugins 폴더에 넣습니다.
+3. 아래의 명령어로 서버를 시작하면 자동으로 플러그인을 불러옵니다.
+<pre><code>./start.sh</code></pre>
