@@ -23,5 +23,16 @@ Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 
 1. 파일관리자를 실행합니다.
 2. 사용할 플러그인을 복사 후 내장메모리 -> TermuxPMMP -> plugins 폴더에 넣습니다.
-3. 아래의 명령어로 서버를 시작하면 자동으로 플러그인을 불러옵니다.
+3. Termux에서 아래의 명령어로 서버를 시작하면 자동으로 플러그인을 불러옵니다.
+<pre><code>./start.sh</code></pre>
+
+
+>plugin_data 디텍터리 안 플러그인 데이터 수정 방법
+
+1. Termux를 실행합니다.
+2. 서버가 실행되어 있으면 아래의 명령어로 먼저 서버를 종료합니다.
+<pre><code>stop</code></pre>
+3. 아래의 명령어를 입력하여 플러그인 데이터 폴더를 불러옵니다.
+<pre><code>./load.sh</code></pre>
+4. 수정을 완료하신 뒤 아래의 명령어로 서버를 시작하지면 자동으로 수정된 값을 불러옵니다.
 <pre><code>./start.sh</code></pre>
