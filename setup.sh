@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir /sdcard/TermuxPMMP
 mkdir /sdcard/TermuxPMMP/plugins
 mkdir /sdcard/TermuxPMMP/plugin_data
 
