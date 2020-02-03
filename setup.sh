@@ -3,6 +3,7 @@
 mkdir /sdcard/TermuxPMMP
 mkdir /sdcard/TermuxPMMP/plugins
 mkdir /sdcard/TermuxPMMP/plugin_data
+mkdir /sdcard/TermuxPMMP/worlds
 
 wget https://github.com/onekill-kr/PocketMine-MP-Installer-Termux/raw/master/php
 wget https://github.com/onekill-kr/PocketMine-MP-Installer-Termux/raw/master/PocketMine.phar
