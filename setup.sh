@@ -1,6 +1,8 @@
 #!/bin/bash
 
 mkdir PMMP
+mkdir /storage/sdcard/TermuxPMMP/plugins
+mkdir /storage/sdcard/TermuxPMMP/plugin_data
 cd PMMP
 
 wget https://github.com/onekill-kr/PocketMine-MP-Installer-Termux-/raw/master/php
