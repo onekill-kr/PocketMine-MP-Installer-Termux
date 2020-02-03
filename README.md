@@ -34,5 +34,6 @@ Link: [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 <pre><code>stop</code></pre>
 3. 아래의 명령어를 입력하여 플러그인 데이터 폴더를 불러옵니다.
 <pre><code>./load.sh</code></pre>
-4. 수정을 완료하신 뒤 아래의 명령어로 서버를 시작하지면 자동으로 수정된 값을 불러옵니다.
+6. 불러온 파일들은 내장메모리 -> TermuxPMMP ->plugin_data 폴더 안에 있습니다.
+5. 수정을 완료하신 뒤 아래의 명령어로 서버를 시작하지면 자동으로 수정된 값을 불러옵니다.
 <pre><code>./start.sh</code></pre>
