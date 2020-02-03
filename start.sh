@@ -1,4 +1,6 @@
 #!/bin/bash
+rm -r ./plugins
+rm -r ./plugin_data
 cp -r /sdcard/TermuxPMMP/* ./
 DIR="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 cd "$DIR"
