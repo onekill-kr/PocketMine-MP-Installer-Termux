@@ -1,5 +1,5 @@
 #!/bin/bash
-./load.sh
+./load.sh start
 rm -r ./plugins
 rm -r ./plugin_data
 rm -r ./worlds
