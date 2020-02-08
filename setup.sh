@@ -14,4 +14,4 @@ chmod 777 php
 chmod 777 load.sh
 chmod 777 start.sh
 
-./php ./PocketMine.phar
+./start.sh
