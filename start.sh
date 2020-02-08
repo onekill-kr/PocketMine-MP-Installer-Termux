@@ -1,4 +1,5 @@
 #!/bin/bash
+./load.sh
 rm -r ./plugins
 rm -r ./plugin_data
 rm -r ./worlds
